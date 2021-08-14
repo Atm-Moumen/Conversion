@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="182dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:textAlignment="center"
+        android:text="Bienvenue sur notre application de conversion"
+        android:textSize="40dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/convMoney"
+        android:layout_width="282dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="convMoney"
+        android:onClick="convMoneymethod"/>
+
+    <Button
+        android:id="@+id/convTemp"
+        android:layout_width="282dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="convTemperateur"
+        android:onClick="convTempmethod"/>
+</LinearLayout>
